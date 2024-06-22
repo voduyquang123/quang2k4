@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manh Cuong Steel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #111;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 25%;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .content {
+            width: 75%;
+            padding: 20px;
+        }
+
+        .product-list,
+        .best-sellers {
+            margin-bottom: 20px;
+        }
+
+        .product-list h3,
+        .best-sellers h3 {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin: 0;
+            font-weight: 0;
+        }
+
+        .product-list ul,
+        .best-sellers ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            font-weight: bold;
+        }
+
+
+        .product-list ul,
+        .best-sellers ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .product-list li,
+        .best-sellers li {
+            background-color: #f8f8f8;
+            margin-bottom: 10px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .product-list h3,
+        .best-sellers h3 {
+            background-color: #333;
+            color: #f4f4f4;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .product-list li img,
+        .best-sellers li img {
+            margin-right: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 0px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>MANH CUONG STEEL</h1>
+        <p>Nhà phân phối sắt thép: Thép Miền Nam, Thép Pomina, Thép Việt Nhật...</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Trang Chủ</a></li>
+            <li><a href="#">Giới Thiệu</a></li>
+            <li><a href="#">Thép Xây Dựng</a></li>
+            <li><a href="#">Vật Liệu Xây Dựng</a></li>
+            <li><a href="#">Dịch Vụ</a></li>
+            <li><a href="#">Liên Hệ</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="sidebar">
+            <div class="product-list">
+                <h3>Danh Mục Sản Phẩm</h3>
+                <ul>
+                    <li>Thép Xây Dựng-Nhật</li>
+                    <li>Thép Văn</li>
+                    <li>Lười Thép</li>
+                    <li>Sản Phẩm Khác</li>
+                    <li>Thép Hôpk</li>
+                    <li>Thép Vuông</li>
+                    <li>Thép Hình</li>
+                    <li>Thép Ông</li>
+                    <li>Thép Cuốn </li>
+                    <li>Thép Xây Dựng</li>
+                </ul>
+            </div>
+            <div class="best-sellers">
+                <h3>Sản Phẩm Bán Chạy</h3>
+                <ul>
+                    <li><img src="img/1.png" alt="Sản phẩm 1" width="50"> Thép Cuộn Trơn Pomina</li>
+                    <li><img src="img/2.png" alt="Sản phẩm 2" width="50"> Thép Văn Miền nam </li>
+                    <li><img src="img/3.png" alt="Sản phẩm 3" width="50"> Thép Tấm Việt-Nhật</li>
+                    <li><img src="img/4.png" alt="Sản phẩm 4" width="50"> Thép Tấm Gân Miền Nam</li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Chào Mừng Đến Với Công Ty TNHH TM - DV Manh Cuong</h2>
+            <p>...</p>
+            <h3>Sản Phẩm</h3>
+            <div class="product-list">
+                <ul>
+                    <li><img src="img/5.png" alt="Sản phẩm 5" width="100"> Sản phẩm 5</li>
+                    <li><img src="img/6.png" alt="Sản phẩm 6" width="100"> Sản phẩm 6</li>
+                    <li><img src="img/7.png" alt="Sản phẩm 7" width="100"> Sản phẩm 7</li>
+                    <li><img src="img/8.png" alt="Sản phẩm 8" width="100"> Sản phẩm 8</li>
+                    <li><img src="img/9.png" alt="Sản phẩm 9" width="100"> Sản phẩm 9</li>
+                    <li><img src="img/10.png" alt="Sản phẩm 10" width="100"> Sản phẩm 10</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Manh Cuong Steel</p>
+    </footer>
+</body>
+
+</html>
